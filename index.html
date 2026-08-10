@@ -9,8 +9,16 @@
 <body>
 
     <main>
-        <h1>UNDERFANG</h1>
-        <p>Something is wrong here...</p>
+        <div class="content">
+            <img src="./public/logo.png" class="udf-logo" alt="UNDERFANG" />
+            <p>Something is wrong here...</p>
+            <div class="video-container">
+                <video width="533" height="360" id="controls" class="video" oncontextmenu="return false;">
+                    <source src="./public/video.mp4" type="video/mp4" />
+                </video>
+                <button id="playPauseBtn" class="btn-play">▶</button>
+            </div>
+        </div>
     </main>
 
     <script src="script.js"></script>
